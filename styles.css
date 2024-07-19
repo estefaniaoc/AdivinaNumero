@@ -1,0 +1,78 @@
+body {
+    background-color: #87CEEB; /* Azul cielo */
+    color: #fff; /* Texto blanco */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white; /* Azul más oscuro para el card */
+    border: none;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    color: #fff; /* Cambia el color del texto dentro de la tarjeta */
+}
+
+.card-header {
+    background-color: #4682B4; /* Azul acero */
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+    color: #fff; /* Cambia el color del texto en el encabezado de la tarjeta */
+}
+
+.card-body {
+    padding: 2rem;
+    color: #fff; /* Cambia el color del texto en el cuerpo de la tarjeta */
+}
+
+h2, p {
+    color: black; /* Texto blanco */
+}
+
+.btn-primary {
+    background-color: #fff; /* Botón blanco */
+    color: #1E90FF; /* Texto del botón en azul */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #4682B4; /* Cambio de color en hover */
+    color: #fff; /* Texto en blanco */
+}
+
+.btn-secondary {
+    background-color: #fff; /* Botón blanco */
+    color: #1E90FF; /* Texto del botón en azul */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #4682B4; /* Cambio de color en hover */
+    color: #fff; /* Texto en blanco */
+}
+
+.btn-success, .btn-danger, .btn-warning, .btn-info {
+    width: 100px;
+    margin: 5px;
+}
+
+#result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
